@@ -7,7 +7,6 @@ root = Path(__file__).resolve().parents[1]
 sys.path.append(str(root / "src"))
 
 import app
-#testing a change
 
 def test_add():
     assert app.add(2, 3) == 5
